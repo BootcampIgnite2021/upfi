@@ -49,6 +49,7 @@ export default async function handler(
   }
 
   if (req.method === 'GET') {
+    console.log('aqui');
     const { after } = req.query;
 
     const queryOptions = {
